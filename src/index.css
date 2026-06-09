@@ -1,0 +1,29 @@
+:root {
+  --bg-primary: #FAFAFA;       /* Off-white clean */
+  --bg-secondary: #F5F5F3;     /* Cinza bem claro para contraste de seções */
+  --text-dark: #1A1A1A;        /* Grafite elegante para os textos */
+  --text-muted: #666666;       /* Cinza fosco para descrições */
+  --accent: #802334;           /* Vinho / Marsala Vivo e Elegante */
+  --whatsapp: #25D366;         /* Verde oficial do WhatsApp */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, .brand-logo {
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* Suavizar rolagem da página ao clicar no menu */
+html {
+  scroll-behavior: smooth;
+}
