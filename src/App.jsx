@@ -49,7 +49,7 @@ export default function App() {
         {/* Imagens de exibição (Banners de Pijamas e Roupas Esportivas) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', padding: '30px' }}>
           <div style={{ 
-            backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1755534537492-931baf15863a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm91cGFzJTIwcGlqYW1hc3xlbnwwfHwwfHx8MA%3D%3D=600")', 
+            backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1664372599873-0cbbe716db09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29zdHVyYXIlMjByb3VwYXxlbnwwfHwwfHx8MA%3D%3D=600")', 
             backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '8px' , marginTop: '40px'
           }} title="Pijamas Premium"></div>
           <div style={{ 
